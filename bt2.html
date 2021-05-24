@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input  type="text" id="nhap" placeholder="nhập bán kính'R'"> <button type="button" onclick="areacircle()">tính diện tích</button> <button type="button" onclick="perimetercircle()">tính chu vi</button>
+<div id="show"></div>
+<script>
+  function areacircle() {
+    let x = document.getElementById("nhap").value
+    document.getElementById("show").innerHTML = x * x * 3.14;
+  }
+  function perimetercircle() {
+    let x = document.getElementById("nhap").value
+    document.getElementById("show").innerHTML = x * 2 * 3.14;
+  }
+</script>
+</body>
+</html>

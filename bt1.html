@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input  type="text" id="nhap"> <button type="button" onclick="binhphuong()">tính</button>
+<div id="show"></div>
+<script>
+    function binhphuong() {
+        let x = document.getElementById("nhap").value
+        document.getElementById("show").innerHTML = x*x;
+    }
+</script>
+</body>
+</html>
